@@ -1,0 +1,15 @@
+C:\code\AND\AdventOfCode\Day2\bin\Debug\net6.0\Day2.exe
+C:\code\AND\AdventOfCode\Day2\bin\Debug\net6.0\Day2.deps.json
+C:\code\AND\AdventOfCode\Day2\bin\Debug\net6.0\Day2.runtimeconfig.json
+C:\code\AND\AdventOfCode\Day2\bin\Debug\net6.0\Day2.dll
+C:\code\AND\AdventOfCode\Day2\bin\Debug\net6.0\ref\Day2.dll
+C:\code\AND\AdventOfCode\Day2\bin\Debug\net6.0\Day2.pdb
+C:\code\AND\AdventOfCode\Day2\obj\Debug\net6.0\Day2.csproj.AssemblyReference.cache
+C:\code\AND\AdventOfCode\Day2\obj\Debug\net6.0\Day2.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\AND\AdventOfCode\Day2\obj\Debug\net6.0\Day2.AssemblyInfoInputs.cache
+C:\code\AND\AdventOfCode\Day2\obj\Debug\net6.0\Day2.AssemblyInfo.cs
+C:\code\AND\AdventOfCode\Day2\obj\Debug\net6.0\Day2.csproj.CoreCompileInputs.cache
+C:\code\AND\AdventOfCode\Day2\obj\Debug\net6.0\Day2.dll
+C:\code\AND\AdventOfCode\Day2\obj\Debug\net6.0\ref\Day2.dll
+C:\code\AND\AdventOfCode\Day2\obj\Debug\net6.0\Day2.pdb
+C:\code\AND\AdventOfCode\Day2\obj\Debug\net6.0\Day2.genruntimeconfig.cache
