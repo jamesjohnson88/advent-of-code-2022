@@ -1,15 +1,14 @@
 ﻿
 open System.IO
 
-let stringsEnumerable = File.ReadLines("./Day3/day3_input_small.txt")
-
-let line = "vJrwpWtwJgWrhcsFMMfFFhFp"
-
+///////////////
+// Functions //
+///////////////
 let splitInTwo = fun(x:string) ->
-    let mid = x.Length / 2
-    let (left, right) = x.ToCharArray() |> Array.splitAt mid
-    let pair = (new string(left), new string(right))
-    pair
+        let mid = x.Length / 2
+        let left, right = x.ToCharArray() |> Array.splitAt mid
+        let pair = (new string(left), new string(right))
+        pair
 
 let findCommonChar = fun(x:string, y:string) ->
     let commonChars = x.ToCharArray() |> Array.filter(y.Contains)
@@ -21,7 +20,11 @@ let charToNumericValue = fun(x:char) ->
     let value = if isLowerCase then raw else raw + 26
     value
 
-splitInTwo line
-|> findCommonChar
-|> charToNumericValue
-|> printfn "%d"
+/////////////
+// Program //
+/////////////
+let matches = List.ofSeq(File.ReadLines("./Day3/day3_input_small.txt"))
+           |> List.map (fun x ->
+               splitInTwo x
+               |> findCommonChar
+               |> charToNumericValue)
