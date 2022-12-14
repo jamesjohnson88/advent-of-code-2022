@@ -23,8 +23,18 @@ let charToNumericValue = fun(x:char) ->
 /////////////
 // Program //
 /////////////
-let matches = List.ofSeq(File.ReadLines("./Day3/day3_input_small.txt"))
-           |> List.map (fun x ->
-               splitInTwo x
-               |> findCommonChar
-               |> charToNumericValue)
+let partOneTotal = List.ofSeq(File.ReadLines("./Day3/day3_input.txt"))
+                   |> List.map (fun x ->
+                       splitInTwo x
+                       |> findCommonChar
+                       |> charToNumericValue)
+                   |> List.sum
+           
+printfn $"%A{partOneTotal}"
+
+let partTwoTotal = List.ofSeq(File.ReadLines("./Day3/day3_input_small.txt"))
+                   List.map (fun x ->
+                       groupAsThrees x// todo - new
+                       |> findCommonChar // todo - overload?
+                       |> charToNumericValue)
+                   |> List.sum
