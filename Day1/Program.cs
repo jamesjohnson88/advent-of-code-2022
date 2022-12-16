@@ -1,4 +1,9 @@
-﻿var inputLines = File.ReadLines("../../../day1_input.txt");
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+var inputLines = File.ReadLines("../../../day1_input.txt");
 //var inputLines = File.ReadLines("../../../day1_input_small.txt");
 
 var elfInventories = new Dictionary<int, List<int>>();

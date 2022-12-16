@@ -1,4 +1,8 @@
-﻿namespace Day2;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Day2;
 
 public static class DecisionsMatrix
 {
