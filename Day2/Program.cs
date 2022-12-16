@@ -1,4 +1,6 @@
-﻿using Day2;
+﻿using System;
+using System.IO;
+using Day2;
 
 //var inputLines = File.ReadLines("../../../day2_input_small.txt");
 var inputLines = File.ReadLines("../../../day2_input.txt");
